@@ -8,6 +8,9 @@ public class ArbolBinario {
     public void insert(int value) {
         root = insert(root, value);
     }
+    public void setRoot(Node root) {
+        this.root = root;
+    }
 
     private Node insert(Node node, int value) {
         if (node == null) {
